@@ -132,7 +132,7 @@ p
 }
 
 
-@media (min-width: 2047px) and (max-width: 2048px){
+@media (max-width: 2048px){
   body{
     margin: 0;
   }
