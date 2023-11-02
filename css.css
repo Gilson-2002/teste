@@ -148,10 +148,10 @@ p
     background-image: url(imagem/capa7.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -130px;
+    
   }
   #hh{
-    font-size: 70px;
+    font-size: 60px;
   }
   #uu{
     font-size: 40px;
@@ -170,33 +170,14 @@ p
   .box_pai{
     border: 1px solid red;
   }
-  .box{
-    border: 1px solid yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    width: 450px;
-    height: 550px;
-    margin-right: 20px;
-    background-color: black;
-    margin-bottom: 20px;
-  }
-  #foto_box{
-    width: 170px;
-    margin-top: -60px;
-  }
-  #foto_box1{
-    width: 170px;
-    margin-top: 25px;
-  }
+  
   #nome_h1{
-    font-size: 30px;
+    font-size: 20px;
   }
   #nome_h2{
-    font-size: 30px;
+    font-size: 10px;
   }
   #p{
-    font-size: 20px;
+    font-size: 10px;
   }
 }
