@@ -1,0 +1,202 @@
+body{
+  background-color: #181A1B;
+}
+h1,
+p
+{
+  color: white;
+}
+
+#foto_capa{
+  /* border: 1px solid green; */
+  width: 100vw;
+  height: 50vh;
+  background-image: url(imagem/capa2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.cabecalho{
+  /* border: 1px solid yellow; */
+  width: 100vw;
+
+}
+.cabecalho_filho{
+  margin-left: 7vw;
+}
+.container-fluid{
+  /* border: 1px solid red; */
+  margin-top: 10vh;
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+#logo_login{
+  width: 60px;
+  /* margin-left: -13vw; */
+  /* float: left; */
+  position: absolute;
+}
+.but{
+
+  border-radius: 20px;
+  margin-top: 1.3vh;
+  /* margin-left: -2vw; */
+   transition: width 0.5s;
+}
+.but:hover{
+  background-color: green;
+
+}
+.box1{
+  /* border: 1px solid green; */
+  flex: 1; /* A div ocupará a largura disponível igualmente */
+
+  margin: 10px;
+  width: 10px;
+}
+.box_pai{
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10vh;;
+  /* box-sizing: border-box; */
+
+}
+
+.box{
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  width: 300px;
+  height: 350px;
+  margin-right: 20px;
+  background-color: black;
+  margin-bottom: 20px;
+
+}
+#foto_box{
+  /* margin-top: -150px; */
+  /* border: 1px solid blue; */
+  width: 120px;
+}
+#foto_box1{
+  /* margin-top: -150px; */
+  /* border: 1px solid blue; */
+  width: 120px;
+}
+#nome{
+  text-decoration: none;
+  color: white;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+#p{
+  color: gray;
+}
+
+.gambi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    /* border: 1px solid red;; */
+    margin-top: 20px;
+    width: 250px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    /* padding-left: 50px; */
+
+}
+
+
+.gambi_foto{
+  display: block;
+    /* border: 1px solid yellow; */
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 2047px) and (max-width: 2048px){
+  body{
+    margin: 0;
+  }
+  #menu{
+    display: none;
+  }
+
+  #foto_capa{
+    border: 1px solid green;
+    margin: 0;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(imagem/capa7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -130px;
+  }
+  #hh{
+    font-size: 70px;
+  }
+  #uu{
+    font-size: 40px;
+  }
+  #logo_login{
+    width: 80px;
+  }
+  .but{
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 1.0vh;
+    /* margin-left: -2vw; */
+     transition: width 0.5s;
+  }
+
+  .box_pai{
+    border: 1px solid red;
+  }
+  .box{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 450px;
+    height: 550px;
+    margin-right: 20px;
+    background-color: black;
+    margin-bottom: 20px;
+  }
+  #foto_box{
+    width: 170px;
+    margin-top: -60px;
+  }
+  #foto_box1{
+    width: 170px;
+    margin-top: 25px;
+  }
+  #nome_h1{
+    font-size: 30px;
+  }
+  #nome_h2{
+    font-size: 30px;
+  }
+  #p{
+    font-size: 20px;
+  }
+}
